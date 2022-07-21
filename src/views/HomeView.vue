@@ -13,11 +13,8 @@ export default {
   name: 'HomeView',
   components: {
     HelloWorld
-  }
+  },
+  methods: {}
 }
 </script>
-<style lang="scss" scoped>
-.zhangsan {
-  backdrop-filter: ;
-}
-</style>
+<style lang="scss" scoped></style>
