@@ -9,7 +9,12 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.0.6",
+    "axios": "^0.27.2",
     "core-js": "^3.8.3",
+    "element-plus": "^2.2.9",
+    "js-md5": "^0.7.3",
+    "svg-sprite-loader": "^6.0.11",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
     "vuex": "^4.0.0"
@@ -41,8 +46,8 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{js,vue}": [ 
-      "eslint --fix", 
+    "src/**/*.{js,vue}": [
+      "eslint --fix",
       "git add"
     ]
   }
